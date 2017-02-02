@@ -62,6 +62,30 @@ body {
 .reveal h3 {
   font-size: 1.55em; }
 
+.alongside {
+    display: flex;
+}
+
+.alongside .right {
+    margin-left: 20%;
+}
+
+#ancientgreek {
+    font-family: "Times New Roman", serif;
+    letter-spacing: 2px;
+}
+
+.nobullet {
+    list-style: none;
+}
+
+.smallfont {
+    font-family: "Courier New", serif;
+    font-size: 10px;
+    color: light-blue;
+    float: left;
+}
+
 .reveal h4 {
   font-size: 1em; }
 
