@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <title>reveal.js</title>
+        <title>The British Museum</title>
 
         <link rel="stylesheet" href="css/reveal.css">
         <link rel="stylesheet" href="css/theme/night.css">
@@ -24,8 +24,65 @@
     <body>
         <div class="reveal">
             <div class="slides">
-                <section>Slide 1</section>
-                <section>Slide 2</section>
+                <section>
+                <h2>The <br>British Museum</h2>
+                <br>
+                <p><em>A guided tour</em></p>
+                <p class="fragment"><em style="color:green">On Saturday, Feb 18</em></p>
+
+                </section>
+                <section data-transition="zoom">
+                    <img src="/lib/img/time.png" />
+                </section>
+                <section data-transition="zoom">
+                <h3>Time</h3>
+                   <br>
+                    <p>Saturday</p>
+                    <p>Museum hours: <span class="fragment highlight-red">10am to 5pm</span></p>
+                </section>
+                <section data-transition="zoom">
+                    <h3>Themes</h3>
+                    <br>
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">Greco-Roman World</li>
+                        <li class="fragment" data-fragment-index="2">Ancient Egypt</li>
+                        <li class="fragment" data-fragment-index="3">Old Japan</li>
+                    </ul>
+                </section>
+                <section data-transition="zoom">
+                    <h3>Floor plan</h3>
+                    <br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1280.6571146272659!2d-0.12810408643144658!3d51.51953099149821!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b323a24ba7b%3A0xe352fb008fd9f14e!2sBritish+Museum+Reading+Room%2C+Great+Russell+St%2C+London+WC1B!5e0!3m2!1sen!2suk!4v1485973520447" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </section>
+                <section data-transition="zoom">
+                    <h3>Themes -> Rooms</h3>
+                    <br>
+                    <table class="reveal">
+                        <tr class="fragment" data-fragment-index="5">
+                            <td>Greco-Roman World</td>
+                            <td class="fragment" data-fragment-index="6"><span style="color:yellow">74</span></td>
+                        </tr>
+                        <tr class="fragment" data-fragment-index="3">
+                            <td>Ancient Egypt</td>
+                            <td class="fragment" data-fragment-index="4"><span>7</span></td>
+                        </tr>
+                        <tr class="fragment" data-fragment-index="1">
+                            <td>Old Japan</td>
+                            <td class="fragment" data-fragment-index="2"><span>3</span></td>
+                        </tr>
+                    </table>
+                </section>
+                <section data-transition="zoom">
+                    <h3>Strategy</h3>
+                    <br>
+                    <p class="fragment" data-fragment-index="1">Ground floor (0):</p>
+                    <p class="fragment" data-fragment-index="2"><span style="color:purple">Greco-Roman World: rooms 18-85</span></p>
+                    <p class="fragment" data-fragment-index="3"><span style="color:purple">Ancient Egypt: room 4 in front of first Greece room</span></p>
+                    <p class="fragment" data-fragment-index="4"> 3rd floor:</p>
+                    <p class="fragment" data-fragment-index="5"><span style="color:purple">Ancient Egypt: rooms 61-65</span></p>
+                    <p class="fragment" data-fragment-index="6"> 5th floor:</p>
+                    <p class="fragment" data-fragment-index="7"><span style="color:purple">Old Japan: rooms 92-94</span></p>
+                </section>
             </div>
         </div>
 
@@ -117,13 +174,13 @@
                 previewLinks: false,
 
                 // Transition style
-                transition: 'slide', // none/fade/slide/convex/concave/zoom
+                transition: 'zoom', // none/fade/slide/convex/concave/zoom
 
                 // Transition speed
                 transitionSpeed: 'default', // default/fast/slow
 
                 // Transition style for full page slide backgrounds
-                backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+                backgroundTransition: 'zoom', // none/fade/slide/convex/concave/zoom
 
                 // Number of slides away from the current that are visible
                 viewDistance: 3,
