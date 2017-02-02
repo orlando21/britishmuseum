@@ -79,10 +79,10 @@ body {
     list-style: none;
 }
 
-.smallfont {
+p.smallfont {
     font-family: "Courier New", serif;
-    font-size: 10px;
-    color: light-blue;
+    font-size: 26px;
+    color: blue;
     float: left;
 }
 
